@@ -1,4 +1,3 @@
-
 // frontend/src/app/dashboard/dashboard.component.ts
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';

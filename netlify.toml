@@ -1,7 +1,5 @@
-[build]
-publish="dist/BOARD"
-command="ng build dash"
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "http://localhost:5000/api/data"
   status = 200
+  force = true

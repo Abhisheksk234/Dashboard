@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/api/*"
-  to = "http://localhost:5000/api/data"
+  to = "http://localhost:5000/"
   status = 200
   force = true

@@ -1,6 +1,6 @@
 [build]
 publish="dist/BOARD"
-command="ng build prod"
+command="ng build dash"
 [[redirects]]
   from = "/*"
   to = "/index.html"

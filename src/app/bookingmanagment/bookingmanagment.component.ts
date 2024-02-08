@@ -10,12 +10,12 @@ import { Usersservice } from '../service/users.service';
 })
 export class BookingmanagmentComponent implements OnInit {
   searchTerm: string = '';
- users: any;
+ user: any;
   constructor(private usersservice: Usersservice) { }
 
   ngOnInit(): void {
     this.usersservice.getusers().subscribe(data => {
-      this.users = data;
+      this.user = data;
     })
   }
 }

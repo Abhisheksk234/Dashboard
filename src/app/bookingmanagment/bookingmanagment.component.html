@@ -8,17 +8,18 @@
         <th>EmailAddress</th>
         <th>Services</th>
         <th>Phone-no</th>
-       
-       </tr>
+
+      </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let user of users">
+      <tr *ngFor="let user of user">
         <td>{{ user.Date }}</td>
         <td>{{user.Name }}</td>
         <td> {{ user.EmailId }}</td>
         <td> {{ user.services }}</td>
-        <td>{{ user.Phno }}</td>
+        <td>{{ user.Phno }} </td>
       </tr>
+
     </tbody>
   </table>
 </div>

@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(76, 15, 15) !important;
+    background-color:powderblue !important;
 }
 body {
     margin: 0;
@@ -64,4 +64,10 @@ body {
 h5{
     color: #ddd;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h6{
+    color: rgb(230, 175, 67) !important;
+    margin-bottom: 3px;
+    font-family: cursive;
+   font-size: 25px;
 }

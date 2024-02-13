@@ -4,11 +4,11 @@
             <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
                     <li class="nav-item"><a class="nav-link active" aria-current="page"
-                            routerLink="/Dashboard/bookingmanagment" routerLinkActive="active" style="color: black;"><strong>Booking-Managment</strong></a>
+                            routerLink="/nav/bookingmanagment"routerLinkActive="active" style="color: black;"><button style="font-family:'Times New Roman', Times, serif;">Booking-Managment</button></a>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" routerLink="/Dashboard/Services"
-                            routerLinkActive="active" style="color: black;"><strong>Services</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" routerLink="/nav/services"
+                            routerLinkActive="active"><button style="font-family: 'Times New Roman', Times, serif;" >Services</button></a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="file"></span>
@@ -36,3 +36,4 @@
                 </ul>
             </div>
         </nav>
+        <router-outlet></router-outlet>

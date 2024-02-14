@@ -26,7 +26,7 @@ form {
   padding: 20px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #254798; /* Water background color */
+  background-color:rgba(255,255,255,0.8); /* Water background color */
   box-shadow: 0 0 20px rgba(6, 5, 5, 0.1);
   animation: waterEffect 3s infinite alternate;
 
@@ -50,7 +50,7 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #ecf0f1; /* Label text color */
+  color: #1da8ff; /* Label text color */
 }
 
 input {

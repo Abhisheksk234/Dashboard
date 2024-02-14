@@ -60,7 +60,7 @@ export class LoginComponent implements OnInit {
     }
   
     private handleSuccessfulLogin() {
-      this.router.navigate(['/nav']);
+      this.router.navigate(['/nav/bookingmanagment']);
     }
   
     private handleFailedLogin() {

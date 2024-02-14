@@ -1,4 +1,7 @@
 /* login.component.css */
+/* * {
+  background-image: url('../assets/loginbackimg.jpg');
+} */
 
 /* Center the form */
 .login-container {
@@ -7,6 +10,14 @@
   justify-content: center;
   height: 100vh; /* Adjust the height as needed */
 }
+.login-container {
+  background-image: url('../../assets/loginbackimg.jpg');
+  background-size: cover;
+  }
+  
+
+  /* Add additional background properties or styles as needed */
+
 
 /* Animated water effect */
 form {
@@ -15,9 +26,10 @@ form {
   padding: 20px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #060708; /* Water background color */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #254798; /* Water background color */
+  box-shadow: 0 0 20px rgba(6, 5, 5, 0.1);
   animation: waterEffect 3s infinite alternate;
+
 }
 
 /* @keyframes waterEffect {

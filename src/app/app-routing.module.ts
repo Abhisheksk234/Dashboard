@@ -18,7 +18,8 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'bookingmanagment', component: BookingmanagmentComponent },
       { path: 'services', component: ServicesComponent },
-      // { path: 'home', component: HomeComponent }
+      { path: 'home', component: HomeComponent },
+      {path: 'Dashboard/login', component: LoginComponent}
     ]
   },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
